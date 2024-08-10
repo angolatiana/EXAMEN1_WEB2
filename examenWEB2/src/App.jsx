@@ -19,18 +19,17 @@ function Tableau(props){
   const {liste}= props
   return (
     <Container className="my-4">
-      <h1 className="mb-4 text-center">Liste des Possessions</h1>
-      <Card className="mb-4 background-section">
+      <h1 className="mb-4 text-center">LISTE DES PESSESSION</h1>
         <Card.Body>
           <Table striped bordered hover responsive>
             <thead>
             <tr>
-        <th>possesseur</th>
-        <th>libelle</th>
-        <th>valeur</th>
-        <th>dateDebut</th>
-        <th>dateFin</th>
-        <th>tauxAmortissement</th>
+        <th>Possesseur</th>
+        <th>Libelle</th>
+        <th>Valeur</th>
+        <th>Date de Debut</th>
+        <th>Date de Fin</th>
+        <th>taux d'Amortissement</th>
         <th>Valeur Actuelle</th>
       </tr>
             </thead>
@@ -49,7 +48,6 @@ function Tableau(props){
             </tbody>
           </Table>
         </Card.Body>
-      </Card>
     </Container>
   );
 }

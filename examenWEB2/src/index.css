@@ -67,7 +67,29 @@ button:focus-visible {
   }
 }
 
+/*css du tableau*/
+.mb-4 {
+  color: rgb(19, 19, 132);
+  background-color:rgb(140, 140, 176);
+}
 
+.my-4{
+  background-color: rgb(201, 201, 238);
+  padding: 2rem 5rem;
+}
+
+input{
+  margin-right: 2rem;
+  height: 2.5rem;
+  width: 9rem;
+  border-color:rgb(140, 140, 176) ;
+  background-color: rgb(201, 201, 238);
+}
+
+button{
+  background-color:rgb(201, 201, 238) ;
+  border-color:rgb(140, 140, 176) ;
+}
 
 
 
